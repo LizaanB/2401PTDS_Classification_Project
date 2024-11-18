@@ -51,8 +51,13 @@ It's highly recommended to use a virtual environment for your projects, there ar
 
 ```bash
 # create the conda environment
-conda create --name <env>
+conda create --name Classification Project
 ```
+###  Exporting your conda environment:
+# conda activate <env>
+conda install pip
+#get list of packages and pipe to txt file
+pip list --format=freeze > requirements.txt
 
 ### This is how you activate the virtual environment in a terminal and install the project dependencies
 
