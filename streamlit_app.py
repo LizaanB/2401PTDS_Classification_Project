@@ -1,10 +1,3 @@
-import streamlit as st
-import pandas as pd
-import seaborn as sns
-from sklearn.model_selection import GridSearchCV, train_test_split
-from sklearn.naive_bayes import GaussianNB
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 def main():
     st.title("News Classification App")
     st.write("This is a web app to classify news articles into different categories.")
