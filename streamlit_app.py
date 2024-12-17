@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib,os
 import seaborn as sns
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
